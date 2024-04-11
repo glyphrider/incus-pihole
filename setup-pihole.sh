@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-HOST=pihole2
+HOST=${HOST:-pihole}
 
 set -x
 
